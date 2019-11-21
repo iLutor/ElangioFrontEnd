@@ -1,5 +1,5 @@
 import React from 'react';
-import CardC from './CardC.js';
+import CardComponent from './CardComponent.js';
 import { Container, Row, Col } from 'react-bootstrap';
 
 const Content = () => {
@@ -15,24 +15,24 @@ const Content = () => {
         <Container>
             <Row>
                 <Col md={6} xs={12} sm={12} lg={4} >
-                    <CardC name="Word" />
+                    <CardComponent name="Word" />
                 </Col>
                 <Col md={6} xs={12} sm={12} lg={4} >
-                    <CardC name="Pronunciation"/>
+                    <CardComponent name="Pronunciation"/>
                 </Col>
                 <Col md={6} xs={12} sm={12} lg={4} >
-                    <CardC name="Listen"/>
+                    <CardComponent name="Listen"/>
                 </Col>
             </Row>
             <Row style={rowStyle}>
                 <Col md={6} xs={12} sm={12} lg={4} >
-                    <CardC name="Chat"/>
+                    <CardComponent name="Chat"/>
                 </Col>
                 <Col md={6} xs={12} sm={12} lg={4} >
-                    <CardC name="Movie phrases"/>
+                    <CardComponent name="Movie phrases"/>
                 </Col>
                 <Col md={6} xs={12} sm={12} lg={4} >
-                    <CardC name="Statistics"/>
+                    <CardComponent name="Statistics"/>
                 </Col>
             </Row>
         

@@ -10,7 +10,7 @@ const Header = () => {
             <Container className="h-100" style={{textAlign:'center',marginBottom: '20px',marginTop: '20px'}}>
                 <Row>
                     <Col md={12} xs={12} sm={12} lg={12} >
-                    <h3>Hi user</h3>
+                    <h3>Hi Sebastian Acuña,</h3>
                     </Col>
                 </Row>
                 <Row>
