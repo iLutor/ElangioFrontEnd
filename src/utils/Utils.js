@@ -1,0 +1,1 @@
+export const URL = "https://elangio-api.herokuapp.com/api";
