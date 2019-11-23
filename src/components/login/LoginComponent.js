@@ -1,10 +1,11 @@
 import React from 'react'
 import UserRegistrationComponent from '../user_registration/UserRegistrationComponent'
+import SignInComponent from '../sign_in/SignInComponent'
 
 const LoginComponent = () => {
     return (
-        <div>
-            < UserRegistrationComponent />
+        <div className="">
+            <UserRegistrationComponent />
         </div>
     )
 }
