@@ -1,17 +1,15 @@
 import React from 'react'
-import { Card } from 'react-bootstrap'
 import './card.scss'
+import {  MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle } from 'mdbreact'
 
 const CardComponent = (props) => {
     return (
-        <>
-            <Card className="card-component">
-                <Card.Img src="logo_small.png" />
-                <Card.Body>
-                    <Card.Title>{props.name}</Card.Title>
-                </Card.Body>
-            </Card>
-        </>
+        <MDBCard className="d-flex align-items-center card-component">
+            <MDBCardImage className="" src="logo_small.png"  />
+            <MDBCardBody>
+                <MDBCardTitle>{props.name}</MDBCardTitle>
+            </MDBCardBody>
+        </MDBCard >
     )
 }
 
