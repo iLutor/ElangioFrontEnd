@@ -23,6 +23,7 @@ module.exports = {
 		'react/jsx-uses-vars': 2,
 		'react/react-in-jsx-scope': 1,
 		'allowEmptyCatch': 0,
+		'no-empty-function': 2,
 		'no-var': 2,
 		'indent': [
 			'error',

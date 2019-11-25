@@ -4,7 +4,10 @@ import HomeComponent from './components/home/HomeComponent'
 import LoginComponent from './components/login/LoginComponent'
 import SignInComponent from './components/sign_in/SignInComponent'
 
+
+
 const App = () => {
+
 	return (
 		<div className="App">
 			<Router>
