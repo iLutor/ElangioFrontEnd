@@ -8,7 +8,7 @@ export const signIn = (data) => {
 
   return axios({
     method: 'post',
-    url: `${URL}/users/log_in`,
+    url: URL+'/users/log_in',
     data,
     headers,
   })
@@ -22,7 +22,7 @@ export const signUp = (data, onSuccess, onError) => {
 
   return axios({
     method: 'post',
-    url: `${URL}/users/sign_up`,
+    url: URL+'/users/sign_up',
     data,
     headers,
   })
