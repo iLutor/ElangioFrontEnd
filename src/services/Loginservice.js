@@ -1,5 +1,5 @@
 import axios from 'axios'
-import {URL} from '../utils/Utils'
+import {URLAPILOGIN} from '../utils/Utils'
 
 export const signIn = (data) => {
   const headers = {
@@ -8,7 +8,7 @@ export const signIn = (data) => {
 
   return axios({
     method: 'post',
-    url: URL+'/users/log_in',
+    url: URL_API_LOGIN+'/users/log_in',
     data,
     headers,
   })
@@ -22,7 +22,7 @@ export const signUp = (data, onSuccess, onError) => {
 
   return axios({
     method: 'post',
-    url: URL+'/users/sign_up',
+    url: URL_API_LOGIN+'/users/sign_up',
     data,
     headers,
   })
