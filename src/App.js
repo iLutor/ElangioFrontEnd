@@ -7,7 +7,6 @@ import SignInComponent from './components/sign_in/SignInComponent'
 const App = () => {
 	return (
 		<div className="App">
-			{a}
 			<Router>
 				<Switch>
 					<Route path='/' exact component={HomeComponent} />
