@@ -22,6 +22,7 @@ module.exports = {
 		'react/jsx-uses-react': 2,
 		'react/jsx-uses-vars': 2,
 		'react/react-in-jsx-scope': 1,
+		'no-var': 2,
 		'indent': [
 			'error',
 			'tab'
