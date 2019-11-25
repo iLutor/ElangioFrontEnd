@@ -1,1 +1,1 @@
-export const URL_API_USER_MODULE = "https://elangio-api.herokuapp.com/api"
+export const BASE_URL = "https://elangio-api.herokuapp.com/api"
