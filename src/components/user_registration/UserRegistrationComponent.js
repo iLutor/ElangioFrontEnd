@@ -1,9 +1,9 @@
-import React from 'react';
-import { Formik, Field, Form, ErrorMessage } from 'formik';
-import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
-import * as Yup from 'yup';
-import './user_registration.scss';
-import {signIn,signUp,signOut} from '../../services/Loginservice';
+import React from 'react'
+import { Formik, Field, Form, ErrorMessage } from 'formik'
+import { MDBContainer, MDBRow, MDBCol } from "mdbreact"
+import * as Yup from 'yup'
+import './user_registration.scss'
+import {signIn,signUp,signOut} from '../../services/Loginservice'
 
 const UserRegistrationComponent = () => {
 
@@ -63,6 +63,6 @@ const UserRegistrationComponent = () => {
 
 }
 
-export default UserRegistrationComponent;
+export default UserRegistrationComponent
 
 

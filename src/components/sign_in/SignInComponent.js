@@ -1,6 +1,6 @@
-import React from 'react';
-import { Formik, Field, Form, ErrorMessage } from 'formik';
-import * as Yup from 'yup';
+import React from 'react'
+import { Formik, Field, Form, ErrorMessage } from 'formik'
+import * as Yup from 'yup'
 
 const SignInComponent = () => {
 
@@ -50,4 +50,4 @@ const SignInComponent = () => {
       )
 }
 
-export default SignInComponent;
+export default SignInComponent

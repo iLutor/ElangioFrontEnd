@@ -1,8 +1,8 @@
 import React from 'react'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import HomeComponent from './components/home/HomeComponent';
-import LoginComponent from './components/login/LoginComponent';
-import SignInComponent from './components/sign_in/SignInComponent';
+import HomeComponent from './components/home/HomeComponent'
+import LoginComponent from './components/login/LoginComponent'
+import SignInComponent from './components/sign_in/SignInComponent'
 
 const App = () => {
     return (
@@ -15,9 +15,9 @@ const App = () => {
                 </Switch>
             </Router>
         </div>
-    );
+    )
 }
 
-export default App;
+export default App
 
 
