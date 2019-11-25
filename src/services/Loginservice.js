@@ -1,5 +1,5 @@
 import axios from 'axios'
-import {URL} from 'utils/Utils'
+import {URL} from '../utils/Utils'
 
 export const signIn = (data) => {
   const headers = {
