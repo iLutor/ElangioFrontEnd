@@ -1,8 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import ContentComponent from './components/content/ContentComponent'
-import HeaderComponent from './components/header/HeaderComponent'
-import UserRegistrationComponent from './components/user_registration/UserRegistrationComponent'
 
 import './assets/scss/main.scss'
 

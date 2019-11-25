@@ -26,14 +26,11 @@ export const signUp = (data, onSuccess, onError) => {
     data,
     headers,
   })
-    .then(() => ({
-        onSuccess()
-    }))
-    .catch((error) => ({
-        onError(error)
-    }))
+    .then(() => (onSuccess()))
+    .catch((error) => (onError(error)))
 }
 
 export const signOut = () => {
   localStorage.clear()
 }
+
