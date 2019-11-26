@@ -26,6 +26,10 @@ module.exports = {
 		'no-empty': 1,
 		'no-empty-function': 1,
 		'no-var': 1,
+		'no-warning-comments': 1,
+		'no-compare-neg-zero': 1,
+		'no-duplicate-case': 1,
+		'no-dupe-keys': 1,
 		'indent': [
 			1,
 			'tab'
