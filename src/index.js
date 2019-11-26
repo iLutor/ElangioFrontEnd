@@ -9,5 +9,7 @@ import 'mdbreact/dist/css/mdb.css'
 
 import App from './App'
 
+var a = 2;
+
 ReactDOM.render(<App />, document.getElementById('root'))
 

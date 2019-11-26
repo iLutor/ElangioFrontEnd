@@ -16,29 +16,30 @@ module.exports = {
 		'sourceType': 'module'
 	},
 	'plugins': [
-		'react'
+		'react',
+		'only-warn'
 	],
 	'rules': {
-		'react/jsx-uses-react': 2,
-		'react/jsx-uses-vars': 2,
+		'react/jsx-uses-react': 1,
+		'react/jsx-uses-vars': 1,
 		'react/react-in-jsx-scope': 1,
-		'allowEmptyCatch': 0,
-		'no-empty-function': 2,
-		'no-var': 2,
+		'no-empty': 1,
+		'no-empty-function': 1,
+		'no-var': 1,
 		'indent': [
-			'error',
+			1,
 			'tab'
 		],
 		'linebreak-style': [
-			'error',
+			1,
 			'windows'
 		],
 		'quotes': [
-			'error',
+			1,
 			'single'
 		],
 		'semi': [
-			'error',
+			1,
 			'never'
 		]
 	}
