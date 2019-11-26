@@ -1,5 +1,6 @@
 import React from 'react'
 import { Formik, Field, Form, ErrorMessage } from 'formik'
+import {signIn} from '../../services/UserModuleServices'
 import * as Yup from 'yup'
 
 const SignInComponent = () => {
@@ -23,9 +24,7 @@ const SignInComponent = () => {
 							.required('Password is required')
 					})}
 					onSubmit={fields => {
-						console.log(fields)
-						alert('Success!! :) ' + JSON.stringify(fields))
-						//signIn(fields);
+						signIn(fields, () => alert('Success :)'), () => {})
 					}}
 					//render={({ errors, status, touched }) => (
 					render={({ errors, touched }) => (
